@@ -1,0 +1,31 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Executa diariamente à meia-noite (horário UTC)
+  push:
+    branches:
+      - main  # Executa também em pushs para a branch main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Generate README content
+        run: |
+          echo "# GitHub Stats" > README.md
+          echo '<div align="center">' >> README.md
+          echo '<img src="https://github-readme-stats.vercel.app/api?username=johnpires&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph" />' >> README.md
+          echo '<img src="https://github-readme-stats.vercel.app/api/top-langs?username=johnpires&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph" />' >> README.md
+          echo '</div>' >> README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'Update README with latest stats'
+          git push
