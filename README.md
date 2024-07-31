@@ -1,4 +1,4 @@
-## Hi, I'm John 👋 I'm a  Developer, Instructor, Mentor, and Content Creator!
+## Hi, I'm John 👋 I'm a Developer, Instructor, Mentor, and Content Creator!
 
 - 👨🏽‍🎓 I enjoy teaching coding skills and helping students
 - 🌱 I'm currently growing my [Youtube Channel](https://www.youtube.com/channel/UCRHNF1wU_W0I9eycgc1KxRA)
@@ -8,7 +8,7 @@
 
 ###
 
-<h3 align="left">🔥   My Stats :</h3>
+<h3 align="left">🔥 My Stats :</h3>
 
 ###
 
