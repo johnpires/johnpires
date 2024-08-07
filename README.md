@@ -8,18 +8,6 @@
 
 ###
 
-<h3 align="left">🔥 My Stats :</h3>
-
-###
-
-<div align="center">
-
-  ![John Pires's Stats](https://github-readme-stats.vercel.app/api?username=johnpires&include_all_commits=true&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
-
-  ![](https://github-readme-stats.vercel.app/api/top-langs?username=johnpires&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=30&theme=vue-dark&hide_border=false&order=2)
-
-</div>
-
 ###
 
 ### 💻 Programming Languages:
